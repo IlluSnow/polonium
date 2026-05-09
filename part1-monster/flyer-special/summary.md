@@ -59,7 +59,7 @@ if (operation == MoveControl.Operation.MOVE_TO) {
 
 以下是该`MoveControl`的核心特点：  
 - 同时调整水平和垂直朝向
-- 不飞行时自然降落
+- 不飞行时自然降落（可选）
 - 飞行速度与实体属性的值有关
   
 接下来是`VexMoveControl`中的`tick`方法，`VexMoveControl`是恼鬼特有的`MoveControl`：  
