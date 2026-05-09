@@ -220,9 +220,9 @@ public class DispenserZombieHeadLayer extends RenderLayer<DispenserZombie, Zombi
 
 到此我们就做完了发射器僵尸的全部内容。  
 
-[源代码（`DispenserZombie`类）](https://github.com/Gravelord-Lych/polonium-ExampleMod/blob/main/src/main/java/lych/polonium/entity/monster/DispenserZombie.java)  
-[源代码（`DispenserZombieRenderer`类）](https://github.com/Gravelord-Lych/polonium-ExampleMod/blob/main/src/main/java/lych/polonium/client/renderer/DispenserZombieRenderer.java)  
-[源代码（`DispenserZombieHeadLayer`类）](https://github.com/Gravelord-Lych/polonium-ExampleMod/blob/main/src/main/java/lych/polonium/client/layer/DispenserZombieHeadLayer.java)
+[源代码（`DispenserZombie`类）](https://github.com/IlluSnow/polonium-ExampleMod/blob/main/src/main/java/lych/polonium/entity/monster/DispenserZombie.java)  
+[源代码（`DispenserZombieRenderer`类）](https://github.com/IlluSnow/polonium-ExampleMod/blob/main/src/main/java/lych/polonium/client/renderer/DispenserZombieRenderer.java)  
+[源代码（`DispenserZombieHeadLayer`类）](https://github.com/IlluSnow/polonium-ExampleMod/blob/main/src/main/java/lych/polonium/client/layer/DispenserZombieHeadLayer.java)
 
 ---
 

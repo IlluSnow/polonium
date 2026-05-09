@@ -527,9 +527,9 @@ private double getDangerousProbability() {
 
 到这里我们就做完了这种“恐怖”的生物，ta会不会令读者毛骨悚然呢？~~Maybe not...~~
 
-[源代码（`Necromancer`类）](https://github.com/Gravelord-Lych/polonium-ExampleMod/blob/main/src/main/java/lych/polonium/entity/monster/Necromancer.java)  
-[源代码（`NecromancerGaol`类）](https://github.com/Gravelord-Lych/polonium-ExampleMod/blob/main/src/main/java/lych/polonium/entity/monster/ai/NecromancerGoal.java)  
-[源代码（`NecromancerModel`类）](https://github.com/Gravelord-Lych/polonium-ExampleMod/blob/main/src/main/java/lych/polonium/client/model/NecromancerModel.java)  
+[源代码（`Necromancer`类）](https://github.com/IlluSnow/polonium-ExampleMod/blob/main/src/main/java/lych/polonium/entity/monster/Necromancer.java)  
+[源代码（`NecromancerGaol`类）](https://github.com/IlluSnow/polonium-ExampleMod/blob/main/src/main/java/lych/polonium/entity/monster/ai/NecromancerGoal.java)  
+[源代码（`NecromancerModel`类）](https://github.com/IlluSnow/polonium-ExampleMod/blob/main/src/main/java/lych/polonium/client/model/NecromancerModel.java)  
 
 ---
 

@@ -600,9 +600,9 @@ public SkeletonWizardRenderer(EntityRendererProvider.Context context) {
 
 这样我们的“杂交实验”就成功完成了。
 
-[源代码（`SkeletonWizard`类）](https://github.com/Gravelord-Lych/polonium-ExampleMod/blob/main/src/main/java/lych/polonium/entity/monster/SkeletonWizard.java)  
-[源代码（`SkeletonWizardRenderer`类）](https://github.com/Gravelord-Lych/polonium-ExampleMod/blob/main/src/main/java/lych/polonium/client/renderer/SkeletonWizardRenderer.java)  
-[源代码（`SkeletonWizardEyesLayer`类）](https://github.com/Gravelord-Lych/polonium-ExampleMod/blob/main/src/main/java/lych/polonium/client/layer/SkeletonWizardEyesLayer.java)
+[源代码（`SkeletonWizard`类）](https://github.com/IlluSnow/polonium-ExampleMod/blob/main/src/main/java/lych/polonium/entity/monster/SkeletonWizard.java)  
+[源代码（`SkeletonWizardRenderer`类）](https://github.com/IlluSnow/polonium-ExampleMod/blob/main/src/main/java/lych/polonium/client/renderer/SkeletonWizardRenderer.java)  
+[源代码（`SkeletonWizardEyesLayer`类）](https://github.com/IlluSnow/polonium-ExampleMod/blob/main/src/main/java/lych/polonium/client/layer/SkeletonWizardEyesLayer.java)
 
 ---
 

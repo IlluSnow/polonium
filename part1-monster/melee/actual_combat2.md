@@ -122,8 +122,8 @@ public static void onLivingHurt(LivingHurtEvent event) {
 
 到此我们就做完了食尸鬼的全部内容（此处省略效果图）。当然在模组开发中，近战怪物在实现逻辑上都不会很复杂，而真正复杂的实体往往是那些有复杂行为的动物和会“法术”的怪物。
 
-[源代码（`Ghoul`类）](https://github.com/Gravelord-Lych/polonium-ExampleMod/blob/main/src/main/java/lych/polonium/entity/monster/Ghoul.java)  
-[源代码（`GhoulTargetAllMobsGoal`类）](https://github.com/Gravelord-Lych/polonium-ExampleMod/blob/main/src/main/java/lych/polonium/entity/monster/ai/GhoulTargetAllMobsGoal.java)
+[源代码（`Ghoul`类）](https://github.com/IlluSnow/polonium-ExampleMod/blob/main/src/main/java/lych/polonium/entity/monster/Ghoul.java)  
+[源代码（`GhoulTargetAllMobsGoal`类）](https://github.com/IlluSnow/polonium-ExampleMod/blob/main/src/main/java/lych/polonium/entity/monster/ai/GhoulTargetAllMobsGoal.java)
 
 ---
 

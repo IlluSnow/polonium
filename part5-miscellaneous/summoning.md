@@ -34,7 +34,7 @@ ForgeEventFactory.onFinalizeSpawn(polonium, level, level.getCurrentDifficultyAt(
 ```java
 level.addFreshEntity(polonium);
 ```
-用`addFreshEntity`把实体添加到世界中时，需要注意实体UUID的唯一性（在分析雪傀儡投掷雪球的方式时提到过这一点，具体的代码举例可以看[1.2.2.2.1的相关内容](https://lych.top/polonium/part1-monster/ranged/snow_golem/snow_golem.html)）。
+用`addFreshEntity`把实体添加到世界中时，需要注意实体UUID的唯一性（在分析雪傀儡投掷雪球的方式时提到过这一点，具体的代码举例可以看[1.2.2.2.1的相关内容](https://illusnow.github.io/polonium/part1-monster/ranged/snow_golem/snow_golem.html)）。
 
 #### `setPowRaw`、`setPos`、`moveTo`、`teleportTo`和`randomTeleport`的区别
 在召唤实体的过程中，几乎所有情况下都需要改变召唤的实体的位置。小标题中的5个方法都是更改实体位置的方法，那么它们之间有什么区别呢？
@@ -120,7 +120,7 @@ private void teleportPassengers() {
 
 `randomTeleport`有返回值，返回`true`则说明找到了合适的目标位置。  
 
-*注：[1.2.1.3.2](https://lych.top/polonium/part1-monster/melee/enderman/enderman.html)中也提到了`randomTeleport`，其中说到笔者认为在末影人瞬移的情境下调整y坐标的地方可以省略，但是如果单独调用此方法而不像末影人一样在`randomTeleport`前就确定好了调整过的传送点，那么该方法内调整y坐标的地方则不可缺少*
+*注：[1.2.1.3.2](https://illusnow.github.io/polonium/part1-monster/melee/enderman/enderman.html)中也提到了`randomTeleport`，其中说到笔者认为在末影人瞬移的情境下调整y坐标的地方可以省略，但是如果单独调用此方法而不像末影人一样在`randomTeleport`前就确定好了调整过的传送点，那么该方法内调整y坐标的地方则不可缺少*
 ```java
 public boolean randomTeleport(double randomX, double randomY, double randomZ, boolean showParticles) {
     double x = getX();
@@ -211,7 +211,7 @@ level.addFreshEntity(throwableProjectile);
 
 所有的箭（`AbstractArrow`）虽然都没有继承`ThrowableProjectile`，但是箭的召唤方式与`ThrowableProjectile`几乎完全一样。不过箭有很多变种，因此还需要注意往往要对某些生物发射出的箭进行特殊处理。  
 
-举骷髅射箭为例（下文中删去了坐标计算、音效播放部分的代码。另见[1.2.2.5.1](https://lych.top/polonium/part1-monster/ranged/skeleton/skeleton.html)）。其中`getProjectile`、`getArrow`和`customArrow`就是这样的特殊处理。
+举骷髅射箭为例（下文中删去了坐标计算、音效播放部分的代码。另见[1.2.2.5.1](https://illusnow.github.io/polonium/part1-monster/ranged/skeleton/skeleton.html)）。其中`getProjectile`、`getArrow`和`customArrow`就是这样的特殊处理。
 ```java
 ItemStack projectile = getProjectile(getItemInHand(ProjectileUtil.getWeaponHoldingHand(this, item -> item instanceof BowItem)));
 AbstractArrow arrow = getArrow(projectile, power);
